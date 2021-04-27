@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hh-mysql-starter" />
+        <module name="hh-redis-starter" />
+        <module name="distributed-lock-starter" />
+        <module name="hh-swagger-starter" />
+        <module name="hh-mysql-core" />
+        <module name="hh-redis-core" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="distributed-lock-starter" options="-parameters" />
+      <module name="hh-mysql-core" options="-parameters" />
+      <module name="hh-mysql-starter" options="-parameters" />
+      <module name="hh-redis-core" options="-parameters" />
+      <module name="hh-redis-starter" options="-parameters" />
+      <module name="hh-swagger-starter" options="-parameters" />
+      <module name="hh_starter" options="-parameters" />
+    </option>
+  </component>
+</project>

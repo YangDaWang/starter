@@ -1,0 +1,109 @@
+{
+  "groups": [
+    {
+      "name": "hh.datasource",
+      "type": "com.yxy.mysql.core.model.MysqlDbProperties",
+      "sourceType": "com.yxy.mysql.core.model.MysqlDbProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "hh.datasource.auto-commit",
+      "type": "java.lang.Boolean",
+      "description": "连接池配置",
+      "sourceType": "com.yxy.mysql.core.model.MysqlDbProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "hh.datasource.connection-init-sql",
+      "type": "java.lang.String",
+      "description": "初始sql, 默认SELECT 1",
+      "sourceType": "com.yxy.mysql.core.model.MysqlDbProperties"
+    },
+    {
+      "name": "hh.datasource.connection-test-query",
+      "type": "java.lang.String",
+      "description": "探活sql",
+      "sourceType": "com.yxy.mysql.core.model.MysqlDbProperties"
+    },
+    {
+      "name": "hh.datasource.connection-timeout",
+      "type": "java.lang.Long",
+      "description": "连接超时, 默认30,000ms",
+      "sourceType": "com.yxy.mysql.core.model.MysqlDbProperties"
+    },
+    {
+      "name": "hh.datasource.d-e-f-a-u-l-t-p-a-r-a-m",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "description": "默认额外参数",
+      "sourceType": "com.yxy.mysql.core.model.MysqlDbProperties"
+    },
+    {
+      "name": "hh.datasource.dbname",
+      "type": "java.lang.String",
+      "description": "数据库库名",
+      "sourceType": "com.yxy.mysql.core.model.MysqlDbProperties"
+    },
+    {
+      "name": "hh.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "description": "数据库驱动类型 默认com.mysql.cj.jdbc.Driver",
+      "sourceType": "com.yxy.mysql.core.model.MysqlDbProperties"
+    },
+    {
+      "name": "hh.datasource.extra-param",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "description": "额外参数",
+      "sourceType": "com.yxy.mysql.core.model.MysqlDbProperties"
+    },
+    {
+      "name": "hh.datasource.host",
+      "type": "java.lang.String",
+      "description": "参数配置ip地址",
+      "sourceType": "com.yxy.mysql.core.model.MysqlDbProperties"
+    },
+    {
+      "name": "hh.datasource.idle-timeout",
+      "type": "java.lang.Long",
+      "description": "空闲超时时间, 默认10分钟",
+      "sourceType": "com.yxy.mysql.core.model.MysqlDbProperties"
+    },
+    {
+      "name": "hh.datasource.max-lifetime",
+      "type": "java.lang.Long",
+      "description": "最大生命周期, 默认30分钟",
+      "sourceType": "com.yxy.mysql.core.model.MysqlDbProperties"
+    },
+    {
+      "name": "hh.datasource.maximum-pool-size",
+      "type": "java.lang.Integer",
+      "description": "最大连接数, 默认15",
+      "sourceType": "com.yxy.mysql.core.model.MysqlDbProperties"
+    },
+    {
+      "name": "hh.datasource.minimum-idle",
+      "type": "java.lang.Integer",
+      "description": "最小空闲连接数, 默认15",
+      "sourceType": "com.yxy.mysql.core.model.MysqlDbProperties"
+    },
+    {
+      "name": "hh.datasource.password",
+      "type": "java.lang.String",
+      "description": "数据库用户密码",
+      "sourceType": "com.yxy.mysql.core.model.MysqlDbProperties"
+    },
+    {
+      "name": "hh.datasource.port",
+      "type": "java.lang.Integer",
+      "description": "参数配置端口",
+      "sourceType": "com.yxy.mysql.core.model.MysqlDbProperties"
+    },
+    {
+      "name": "hh.datasource.username",
+      "type": "java.lang.String",
+      "description": "数据库用户名",
+      "sourceType": "com.yxy.mysql.core.model.MysqlDbProperties"
+    }
+  ],
+  "hints": []
+}
